@@ -1,0 +1,166 @@
+.row-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-1{
+    width: 32%;
+    
+    border-radius: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: start;
+    border: 1px solid rgb(190, 182, 182);
+
+    justify-content: center;
+}
+.row-2{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.card-2{
+    width: 48%;
+    
+    border-radius: 20px;
+    
+    gap: 15px;
+    align-items: start;
+
+    
+}
+.icon{
+    background-color: white;
+    border-radius: 100%;
+    width:30%;
+}
+.p1{
+    width: 50%;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+.link:hover{
+    color: rgb(252, 252, 79);
+    text-decoration: none;
+    font-size: 19px;
+}
+.h-1{
+    font-size: 60px;
+}
+
+@media screen and (max-width: 992px) {
+    .row-1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card-1{
+        width: 48%;
+        
+        border-radius: 20px;
+        display: flex;
+        gap: 15px;
+        align-items: start;
+        border: 1px solid rgb(190, 182, 182);
+    
+        justify-content: center;
+    }
+    .row-2{
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+    }
+    .card-2{
+        width: 48%;
+        
+        border-radius: 20px;
+        
+        gap: 15px;
+        align-items: start;
+    
+        
+    }
+    .icon{
+        background-color: white;
+        border-radius: 100%;
+        width:20%;
+    }
+    .p1{
+        width: 80%;
+    }
+    .link{
+        color: white;
+        text-decoration: none;
+        font-size: 19px;
+    }
+    .link:hover{
+        color: rgb(252, 252, 79);
+        text-decoration: none;
+        font-size: 19px;
+    }
+    .h-1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 786px) {
+    .row-1{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-1{
+        width: 100%;
+        
+        border-radius: 20px;
+        display: flex;
+        gap: 15px;
+        align-items: start;
+        border: 1px solid rgb(190, 182, 182);
+    
+        justify-content: center;
+    }
+    .row-2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: space-between;
+    }
+    .card-2{
+        width: 100%;
+        
+        border-radius: 20px;
+        
+        gap: 15px;
+        align-items: start;
+    
+        
+    }
+    .icon{
+        background-color: white;
+        border-radius: 100%;
+        width:90px;
+    }
+    .p1{
+        width: 50%;
+    }
+    .link{
+        color: white;
+        text-decoration: none;
+        font-size: 19px;
+    }
+    .link:hover{
+        color: rgb(252, 252, 79);
+        text-decoration: none;
+        font-size: 19px;
+    }
+    .h-1{
+        font-size: 40px;
+    }
+}

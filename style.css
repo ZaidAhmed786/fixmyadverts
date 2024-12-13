@@ -1,0 +1,408 @@
+.main{
+    background-image: url(./images/Background-2.webp);
+    background-size: cover;
+    height: 700px;
+}
+.main2{
+    border: 7px solid orange;
+    height: 580px;
+    margin-top: -300px;
+    padding: 30px;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    
+    background-image: url(./images/Homepage-Banner-Main-FixMyAdverts.webp);
+}
+.main3{
+   
+    height: 580px;
+    margin-top: 100px;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(./images/Homepage-Banner-Secondary-FixMyAdverts.webp);
+}
+.img{
+    
+    opacity: 0.6;
+    filter: brightness(105%) contrast(108%) saturate(0%) blur(0px) hue-rotate(0deg);
+    transition-duration: 0.25s
+}
+.img:hover{
+
+    opacity: 1;
+    filter: none;
+    transition-duration: 0.25s
+}
+.p1{
+    color: gray;
+     font-size: 16px;
+     width: 50%;
+}
+.h1{
+    width: 50%;
+}
+.row-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-1{
+    width: 32%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: start;
+    box-shadow: 0px 0px 5px 5px rgb(231, 229, 229);
+
+    justify-content: center;
+}
+.icon{
+    background-color: blue;
+    border-radius: 100%;
+}
+.main4{
+    border: 7px solid orange;
+    height: 580px;
+    margin-top: 100px;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url(./images/FixMyAdverts-Fix-Suspensions.webp);
+}
+.p2{
+    font-size: 19px;
+}
+.p2:hover{
+    color: rgb(185, 185, 29);
+}
+.heading{
+    font-size: 45px;
+}
+
+.main-1{
+    background-image: url(./images/Background-2.webp);
+    background-size: cover;
+    /* height: 830px; */
+}
+.row-2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-2{
+    width: 32%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: start;
+    box-shadow: 0px 0px 5px 5px rgb(231, 229, 229);
+    justify-content: center;
+}
+.icon-2{
+    background-color: rgb(216, 216, 228);
+    border-radius: 100%;
+}
+
+.main-3{
+    
+background-image: url(./images/Background-2.webp);
+border-top-left-radius: 30px;
+border-bottom-left-radius: 30px;
+}
+
+.card-3{
+    width: 250px;
+    box-shadow: 0px 0px 5px 5px rgb(231, 229, 229);
+}
+
+.main-5{
+    margin-left: -50px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+.link:hover{
+    color: rgb(252, 252, 79);
+    text-decoration: none;
+    font-size: 19px;
+}
+.text-1{
+    padding-left: 90px;
+}
+@media screen and (max-width: 992px){
+    .main2{
+        border: 7px solid orange;
+        height: 400px;
+        margin-top: -300px;
+        padding: 30px;
+        border-radius: 30px;
+        background-size: cover;
+        background-position: center;
+        
+        background-image: url(./images/Homepage-Banner-Main-FixMyAdverts.webp);
+    }
+
+    .p1{
+        color: gray;
+         font-size: 16px;
+         width: 75%;
+    }
+    .h1{
+        width: 60%;
+    }
+    .main3{
+   
+        height: 400px;
+        margin-top: 100px;
+        border-radius: 30px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(./images/Homepage-Banner-Secondary-FixMyAdverts.webp);
+    }
+    .main4{
+        border: 7px solid orange;
+        height: 400px;
+        margin-top: 100px;
+        border-radius: 30px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(./images/FixMyAdverts-Fix-Suspensions.webp);
+    }
+    .row-1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    .card-1{
+        width: 60%;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        gap: 15px;
+        align-items: start;
+        box-shadow: 0px 0px 5px 5px rgb(231, 229, 229);
+    
+        justify-content: center;
+    }
+    .main-1{
+        background-image: url(./images/Background-2.webp);
+        background-size: cover;
+        /* height: 830px; */
+    }
+    .row-2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card-2{
+        width: 48%;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        gap: 15px;
+        align-items: start;
+        box-shadow: 0px 0px 5px 5px rgb(231, 229, 229);
+        justify-content: center;
+    }
+    .text-1{
+        padding-left: 30px;
+    }
+    .main-5{
+        margin-left: 0px;
+    }
+    .card-3{
+        width:100%;
+        box-shadow: 0px 0px 5px 5px rgb(231, 229, 229);
+    }
+}
+
+@media screen and (max-width: 786px){
+    .main2{
+        border: 7px solid orange;
+        height: 250px;
+        margin-top: -150px;
+        padding: 30px;
+        border-radius: 30px;
+        background-size: cover;
+        background-position: center;
+        
+        background-image: url(./images/Homepage-Banner-Main-FixMyAdverts.webp);
+    }
+
+    .p1{
+        color: gray;
+         font-size: 16px;
+         width: 90%;
+    }
+    .h1{
+        width: 80%;
+    }
+    .main3{
+   
+        height: 250px;
+        margin-top: 100px;
+        border-radius: 30px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(./images/Homepage-Banner-Secondary-FixMyAdverts.webp);
+    }
+    .main4{
+        border: 7px solid orange;
+        height: 250px;
+        margin-top: 100px;
+        border-radius: 30px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(./images/FixMyAdverts-Fix-Suspensions.webp);
+    }
+    .row-1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    .card-1{
+        width: 100%;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        gap: 15px;
+        align-items: start;
+        box-shadow: 0px 0px 5px 5px rgb(231, 229, 229);
+    
+        justify-content: center;
+    }
+    .main-1{
+        background-image: url(./images/Background-2.webp);
+        background-size: cover;
+        /* height: 830px; */
+    }
+    .row-2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card-2{
+        width: 100%;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        gap: 15px;
+        align-items: start;
+        box-shadow: 0px 0px 5px 5px rgb(231, 229, 229);
+        justify-content: center;
+    }
+    .text-1{
+        padding-left: 100px;
+    }
+    .main-5{
+        margin-left: 0px;
+    }
+    .card-3{
+        width:100%;
+        box-shadow: 0px 0px 5px 5px rgb(231, 229, 229);
+    }
+}
+
+
+@media screen and (max-width: 424px){
+    .main{
+        background-image: url(./images/Background-2.webp);
+        background-size: cover;
+        height: 600px;
+    }
+    .main2{
+        border: 7px solid orange;
+        height: 200px;
+        margin-top: -100px;
+        padding: 30px;
+        border-radius: 30px;
+        background-size: cover;
+        background-position: center;
+        
+        background-image: url(./images/Homepage-Banner-Main-FixMyAdverts.webp);
+    }
+
+    .p1{
+        color: gray;
+         font-size: 16px;
+         width: 90%;
+    }
+    .h1{
+        width: 80%;
+    }
+    .main3{
+   
+        height: 200px;
+        margin-top: 100px;
+        border-radius: 30px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(./images/Homepage-Banner-Secondary-FixMyAdverts.webp);
+    }
+    .main4{
+        border: 7px solid orange;
+        height: 200px;
+        margin-top: 100px;
+        border-radius: 30px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(./images/FixMyAdverts-Fix-Suspensions.webp);
+    }
+    .row-1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    .card-1{
+        width: 100%;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        gap: 15px;
+        align-items: start;
+        box-shadow: 0px 0px 5px 5px rgb(231, 229, 229);
+    
+        justify-content: center;
+    }
+    .main-1{
+        background-image: url(./images/Background-2.webp);
+        background-size: cover;
+        /* height: 830px; */
+    }
+    .row-2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card-2{
+        width: 100%;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        gap: 15px;
+        align-items: start;
+        box-shadow: 0px 0px 5px 5px rgb(231, 229, 229);
+        justify-content: center;
+    }
+    .text-1{
+        padding-left: 100px;
+    }
+    .main-5{
+        margin-left: 0px;
+    }
+    .card-3{
+        width:100%;
+        box-shadow: 0px 0px 5px 5px rgb(231, 229, 229);
+    }
+}
