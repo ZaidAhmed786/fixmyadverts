@@ -140,7 +140,54 @@
     background-color: blue;
     border-radius: 100%;
 }
+.card-7{
+    width: 49%;
+    background-color: white;
+    color: gray;
+    border-radius: 20px;
+    display: flex;
+    gap: 5  px;
+    align-items: start;
+    box-shadow: 0px 0px 5px 5px rgb(231, 229, 229);
+   
 
+    justify-content: center;
+}
+
+.card-7:hover{
+    width: 49%;
+    
+    color:rgb(112, 112, 194);
+    border: 1px solid rgb(112, 112, 194);
+    gap: 5px;
+    align-items: start;
+   
+
+    justify-content: center;
+}
+.card-8{
+    width: 49%;
+    background-color: white;
+    color: gray;
+    border-radius: 20px;
+    gap: 15px;
+    align-items: start;
+   
+
+    justify-content: center;
+}
+
+.card-8:hover{
+    width: 49%;
+  border-radius: 0px;
+   border: 2px solid black;
+
+    gap: 15px;
+    align-items: start;
+   
+
+    justify-content: center;
+}
 @media screen and (max-width:992px)  {
     .row-1{
         width: 100%;
@@ -403,11 +450,59 @@
     
         justify-content: center;
     }
+    .card-8{
+        width: 100%;
+        background-color: white;
+        color: gray;
+        border-radius: 20px;
+        gap: 15px;
+        align-items: start;
+       
+    
+        justify-content: center;
+    }
+    
+    .card-8:hover{
+        width: 100%;
+      border-radius: 0px;
+       border: 2px solid black;
+    
+        gap: 15px;
+        align-items: start;
+       
+    
+        justify-content: center;
+    }
     
     .icon-1{
         width: 80px;
         margin: auto;
         background-color: blue;
         border-radius: 100%;
+    }
+    .card-7{
+        width: 100%;
+        background-color: white;
+        color: gray;
+        border-radius: 20px;
+        display: flex;
+        gap: 5  px;
+        align-items: start;
+        box-shadow: 0px 0px 5px 5px rgb(231, 229, 229);
+       
+    
+        justify-content: center;
+    }
+    
+    .card-7:hover{
+        width: 100%;
+        
+        color:rgb(112, 112, 194);
+        border: 1px solid rgb(112, 112, 194);
+        gap: 5px;
+        align-items: start;
+       
+    
+        justify-content: center;
     }
 }
