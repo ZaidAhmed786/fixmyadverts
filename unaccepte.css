@@ -1,0 +1,35 @@
+.card-full{
+    width: 100%;
+    background-color: white;
+    color: gray;
+    border-radius: 20px;
+
+    gap: 15px;
+    align-items: start;
+   
+
+    justify-content: center;
+}
+.card-half3{
+    width: 100%;
+    background-color: white;
+    color: gray;
+
+    gap: 15px;
+    align-items: start;
+   
+
+    justify-content: center;
+}
+
+.card-half3:hover{
+    width: 100%;
+    background-color: rgb(107, 144, 245);
+    color: white;
+
+    gap: 15px;
+    align-items: start;
+   
+
+    justify-content: center;
+}
